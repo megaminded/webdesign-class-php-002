@@ -66,7 +66,7 @@ Operator are mainly divided by three groups that are totally seventeen types.
 
 10.string Operator
     . =  concatenation operator
-    .= concatenating assignment operator
+    .=  concatenating assignment operator
 
 11.Type Operator
     instanceof = instanceof
