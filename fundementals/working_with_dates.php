@@ -15,3 +15,7 @@ $dob = "4/19/1991";
 $date = date('M', strtotime($dob));
 
 echo $date;
+
+// Classwork
+// Using the date function, output the age of a student in the format below
+// James you're 30 years and 4 months old;
