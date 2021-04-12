@@ -17,11 +17,33 @@ $sentence  = 'This is a welcome message';
 # Helps us get the length of a string
 $length = strlen($sentence);
 // echo $length;
+// Compare two string
+$string1 = "Hello";
+$string2 = "Hello";
+// $result = strcmp($string1, $string2);
 
+// Check for the position of specified letter in a string
+$word = "Elephant";
+// $result = strpos($word, 't');
+
+// Returns the replace of a character in a string
+$sentence = 'This is a rugged guy';
+// $result = str_replace('rugged', 'handsome', $sentence);
+
+
+$name  = "Ebube";
+// $result = strrev($name);
+
+$answer = 2;
+
+$result = exp($answer);
+
+// $va = "" == "";
 $uppercase = strtoupper($sentence);
 
 // echo $uppercase;
 
 $lowercase = strtolower($sentence);
 
-echo $lowercase;
+// echo $lowercase;
+echo $result;
